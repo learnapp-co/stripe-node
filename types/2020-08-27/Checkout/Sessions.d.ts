@@ -979,7 +979,8 @@ declare module 'stripe' {
           | 'ideal'
           | 'p24'
           | 'sepa_debit'
-          | 'sofort';
+          | 'sofort'
+          | 'upi';
 
         interface SetupIntentData {
           /**
